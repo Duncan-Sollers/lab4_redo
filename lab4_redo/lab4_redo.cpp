@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
-
+#include <string>;
+#include "ListBuilder.h"
 int main()
 {
     std::cout << "Hello World!\n";
+    buildStringList("file.txt");
+    buildIntList("int.txt");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
