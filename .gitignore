@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/lab4_redo/.vs/lab4_redo
+/lab4_redo/lab4_redo/x64/Debug
+/lab4_redo/x64/Debug
