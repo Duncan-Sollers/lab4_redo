@@ -2,14 +2,23 @@
 //
 
 #include <iostream>
-#include <string>;
+#include <string>
+
 #include "ListBuilder.h"
+#include "menu.h"
 int main()
 {
+
     std::cout << "Hello World!\n";
-    buildStringList("file.txt");
-    buildIntList("int.txt");
+    
+    SinglyLinkedList<std::string>stringList = buildStringList("file.txt");
+    SinglyLinkedList<int>intList = buildIntList("int.txt");
+    stringList.displayList();
+    intList.displayList();
+    //displayMainMenu();
 }
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
